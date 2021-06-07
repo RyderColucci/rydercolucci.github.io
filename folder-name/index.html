@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1 id="title">Friends Survey Form</h1>
+
+<p id="desription">Take a survey about the show Friends.</p>
+
+<div id="body">
+
+<form id="survey-form">
+  <p>Name:</p>
+  <input id="name" type="text" placeholder="Enter Your Name" required>
+  
+    <p>Email:</p>
+  <input id="email" type="email" placeholder="Enter Your Email" required>
+  
+    <p>Age:</p>
+  <input id="number" type="number" placeholder="Enter Your Age" required>
+ 
+  <p>Who is your favorite charcter from Friends?</p>
+<select id="dropdown">
+  <option value="default">Phoebe</option>
+  <option value="default">Ross</option>
+  <option value="default">Rachel</option>
+  <option value="default">Chandler</option>
+  <option value="default">Monica</option>
+  <option value="default">Joey</option>
+ 
+  </select>
+  
+  <p>What is your favorite scene?</p>
+  <input type="radio" name="scene" value="1">Joey wearing Chandler's clothes</input>
+<br>
+ <input type="radio" name="scene" value="2">Joey doesn't share food!!</input>
+<br>
+ <input type="radio" name="scene" value="3">Miss Chanadler Bong</input>
+<br>
+ <input type="radio" name="scene" value="4">PIVOT!!</input>
+<br>
+ <input type="radio" name="scene" value="5">Not listed</input>
+    
+<p>Have you watched the reunion special yet?</p>
+
+<input type="checkbox" name="Friends" value="1">Yes</input>
+<br>
+<input type="checkbox" name="Friends" value="2">No</input>
+<br>
+<input type="checkbox" name="Friends" value="3">I plan to</input>
+<br>
+<input type="checkbox" name="Friends" value="4">There was a reunion special?</input>
+  <br>
+
+<input id="submit" type="submit" value="Submit">
+  
+</div>
+
+</form>
+<!-- partial -->
+  
+</body>
+</html>
